@@ -14,7 +14,7 @@ function addElementToEndOfArray(chocolateBars, candyString){
   return [candyString,...chocolateBars];
 }
 
-function estructivelyAddElementToBeginningOfArray(chocolateBars, candyString){
-  return [candyString,...chocolateBars];
+function estructivelyAddElementToEndOfArray(chocolateBars, candyString){
+  return [...chocolateBars, candyString];
 }
 
