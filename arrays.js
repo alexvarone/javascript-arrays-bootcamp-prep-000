@@ -8,3 +8,15 @@ function addElementToBeginningOfArray(array,){
 function destructivelyAddElementToBeginningOfArray(,){
   
 }
+
+
+var cities = ["New York", "San Francisco"]
+ 
+["Philadelphia", ...cities] // ["Philadelphia", "New York", "San Francisco"]
+ 
+cities // ["New York", "San Francisco"]
+
+
+[...cities, "Gang"]
+
+console.log(cities)
